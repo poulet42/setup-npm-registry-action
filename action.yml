@@ -1,0 +1,12 @@
+name: "Setup registry authentication"
+description: "Setup BASIC authentication and registry URL for npm"
+inputs:
+  url:
+    description: "Registry URL to use"
+    required: true
+  auth:
+    description: "Registry authentication token"
+    required: true
+runs:
+  using: "node20"
+  main: "dist/index.js"
