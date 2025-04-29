@@ -21,7 +21,7 @@ echo -n "my-username:my-password" | base64
 ## Example usage
 
 ```yaml
-uses: poulet42/setup-npm-registry
+uses: poulet42/setup-npm-registry-action@v1
 with:
   url: "https://my-registry.com/"
   auth: "abcd1234"
